@@ -1,0 +1,193 @@
+
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+/*Global*/
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*header part*/
+img.logo {
+	height: 70px;
+	width: 260px;
+}
+
+
+header {
+	background: white;
+	color: #fb5b11;
+	padding-top: 30px;
+	min-height: 30px;
+}
+
+.active {
+	border-bottom: #fb5b11 5px solid;
+}
+
+header li:hover {
+	border-bottom: 5px solid #fb5b11;
+}
+
+header a {
+	color:  #0078ff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding:20px;
+}
+header #branding {
+	float: left;
+}
+header #branding h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 0;
+}
+
+#banner {
+	min-height: 400px;
+	background: url('project.jpg') no-repeat 0 -800px; 
+	text-align: left;
+	color: white; 
+	text-align: center;
+}
+
+
+.banner_text h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+span.contact {
+	color:#fb5b11;
+	border-bottom: 5px solid #fb5b11;
+}
+
+/*================================================
+START OF projects div STYLING 
+===============================================*/
+
+.projects {
+	font-family: roboto, sans-serif;
+	font-size: 16px;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.project_description {
+	padding-top: 200px;
+	color: white;
+}
+
+.project1 {
+	min-height: 400px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('projects/project1.png');
+}
+
+.project2 {
+	min-height: 400px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('projects/project2.png');
+}
+.project3 {
+	min-height: 400px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('projects/project3.png');
+}
+.project4 {
+	min-height: 400px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('projects/project4.png');
+}
+.project5 {
+	min-height: 400px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('projects/project5.png')
+}
+
+input[class='get_started'] {
+	background:  #0078ff;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border:none;
+	margin: 10px;
+	font-family: roboto, sans-serif;
+	float: left;
+}
+
+.button a {
+	color: white;
+	text-decoration: none;
+}
+
+/*================================================
+START OF projects div STYLING 
+===============================================*/
+
+
+
+/*================================================
+START OF FOOTER STYLING 
+===============================================*/
+
+.footer {
+	background: linear-gradient(83deg, #fb5b11, red);
+	text-align: center;
+	padding: 30px;
+	color:white;
+	font-family: lato, sans-serif;
+
+}
+
+.footer-items {
+	/*display: flex;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 30px;
+	margin: 20px auto;
+}
+
+
+
+.footer_ul li {
+	padding: 10px;
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer_ul li a {
+	text-decoration: none;
+	color:white;
+}
+ .footer_items_header {
+ 	text-transform: uppercase;
+ 	border-bottom: 5px solid white;
+ 	margin: 10px;
+ }
+
+ .footer-items div {
+ 	margin: 0 50px 0 50px;
+ }
+
+/*================================================
+END OF  FOOTER STYLING 
+===============================================*/
+
+

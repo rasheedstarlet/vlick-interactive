@@ -1,0 +1,220 @@
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+/*Global*/
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/*header part*/ 
+
+img.logo {
+	height: 70px;
+	width: 260px;
+}
+
+
+header {
+	background: white;
+	color: #fb5b11;
+	padding-top: 30px;
+	min-height: 30px;
+}
+
+.active {
+	border-bottom: #fb5b11 5px solid;
+}
+
+header li:hover {
+	border-bottom: 5px solid #fb5b11;
+}
+
+header a {
+	color:  #0078ff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding:20px;
+}
+header #branding {
+	float: left;
+}
+header #branding h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 0;
+}
+
+#banner {
+	min-height: 400px;
+	background: url('banner.jpg') no-repeat 0 -800px; 
+	text-align: left;
+	color: white;
+}
+
+input[class='get_started'] {
+	background: #0078ff;
+	color: white;
+	font-size: 24px;
+	padding: 15px;
+	border:none;
+	font-family: lato;
+}
+
+.banner_text {
+	padding-top: 100px;
+	padding-left: 40px;
+}
+.banner_text h1 {
+	font-size: 68px;
+	font-weight: bold;
+	padding: 0px;
+	margin:0;
+}
+
+.banner_text p {
+	font-size: 24px;
+}
+
+span.vlick {
+	text-transform: uppercase;
+	color: #fb5b11;
+	border-bottom: 5px solid #fb5b11;
+}
+
+/*================================================
+START OF STYLING OF div.container
+===============================================*/
+
+.container_info {
+	min-height: 300px;
+	text-align: center; /* this centers the content of the div inside it*/
+}
+
+div.we {
+	display: inline-block;
+	font-size: 22px;
+	color:  #0078ff;
+	font-family:;
+}
+
+span.are {
+	color: #fb5b11;
+	border-bottom: 5px solid #fb5b11;
+}
+
+
+
+/*================================================
+END OF STYLING OF div.container
+===============================================*/
+
+/*================================================
+START OF OUR EXPERTISE STYLING 
+===============================================*/
+
+.expertise {
+	padding: 80px;
+	margin:20 auto;
+	color: white;
+	background: #2d3436;
+}
+
+div .hero_text span {
+	margin:5px;
+	font-size: 38px;
+	border-bottom: 4px solid #0078ff;
+}
+
+.bars {
+	margin: 5px;
+	padding: 5px;
+}
+
+.bars p{
+	margin: 0;
+	padding: 0;
+}
+
+.expertise_info {
+	margin: 5px;
+	padding: 5px;
+	font-size: 24;
+	font-weight: bold;
+}
+
+
+/*================================================
+END OF OUR EXPERTISE STYLING 
+===============================================*/
+
+
+
+/*================================================
+START OF FOOTER STYLING 
+===============================================*/
+
+.footer {
+	background: linear-gradient(83deg, #fb5b11, red);
+	text-align: center;
+	padding: 30px;
+	color:white;
+	font-family: lato, sans-serif;
+
+}
+
+.footer-items {
+	/*display: flex;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 30px;
+	margin: 20px auto;
+}
+
+
+
+.footer_ul li {
+	padding: 10px;
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer_ul li a {
+	text-decoration: none;
+	color:white;
+}
+ .footer_items_header {
+ 	text-transform: uppercase;
+ 	border-bottom: 5px solid white;
+ 	margin: 10px;
+ }
+
+ .footer-items div {
+ 	margin: 0 50px 0 50px;
+ }
+
+/*================================================
+END OF  FOOTER STYLING 
+===============================================*/
+
+
